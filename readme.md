@@ -3,7 +3,7 @@
 Sitio web profesional desarrollado para el curso de Desarrollo Web en Coderhouse. Enfocado en una experiencia de usuario elegante, minimalista y totalmente optimizada.
 
 ## 🚀 Demo
-Puedes ver el sitio en vivo aquí: https://FacuFa1503.github.io/Kariso-Estetica-Proyecto-Final/
+Puedes ver el sitio en vivo aquí: https://facufa1503.github.io/Kariso-Estetica-Proyecto-final/
 
 ## ✨ Características (Criterios de Evaluación)
 * **Diseño Responsivo:** Implementación de Grids y Flexbox (Bootstrap 5) sin errores de overflow-x.
