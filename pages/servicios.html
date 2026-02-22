@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Servicios y Tratamientos | Kariso Estética</title>
+    <meta name="description" content="Explorá nuestra lista completa de tratamientos: faciales, corporales, masajes y bienestar. Encontrá el servicio ideal para vos en Kariso Estética.">
+    <meta name="keywords" content="estética, alisado laser, reiki, maderoterapia, limpieza facial, lifting de pestañas, masajes decontracturantes">
+    
+    <meta property="og:title" content="Kariso Estética - Centro de Belleza">
+    <meta property="og:description" content="Descubrí nuestros tratamientos exclusivos y disfrutá de un momento para vos.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../img/logo-share.jpg"> <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+    <header class="py-3">
+        <div class="container brand-container text-center">
+            <h1 class="display-5 fw-bold text-pink">Kariso</h1>
+            <p class="text-muted small">Centro de estética</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md sticky-top shadow-sm">
+        <div class="container">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link ms-4" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h2 class="text-center mb-5 section-title">Presupuestá tu Turno</h2>
+
+        <section class="row justify-content-center">
+            <div class="col-md-8 col-lg-7 card shadow p-4 border-left-pink">
+                <form id="form-presupuesto">
+                    <div class="mb-4">
+                        <label class="form-label fw-bold mb-3">1. Elegí los servicios:</label>
+                        
+                        <div class="form-check custom-card-check mb-2">
+                            <input class="form-check-input check-servicio ms-0 me-3" type="checkbox" value="25000" id="serv1">
+                            <label class="form-check-label d-flex justify-content-between w-100" for="serv1">
+                                <span>Alisado con laser</span> <span class="fw-bold">$25.000</span>
+                            </label>
+                        </div>
+
+                        <div class="form-check custom-card-check mb-2">
+                            <input class="form-check-input check-servicio ms-0 me-3" type="checkbox" value="30000" id="serv2">
+                            <label class="form-check-label d-flex justify-content-between w-100" for="serv2">
+                                <span>Depilacion sistema español</span> <span class="fw-bold">$30.000</span>
+                            </label>
+                        </div>
+
+                        <div class="form-check custom-card-check mb-2">
+                            <input class="form-check-input check-servicio ms-0 me-3" type="checkbox" value="20000" id="serv3">
+                            <label class="form-check-label d-flex justify-content-between w-100" for="serv3">
+                                <span>Pedicuría basica</span> <span class="fw-bold">$20.000</span>
+                            </label>
+                        </div>
+
+                        <div class="form-check custom-card-check mb-2">
+                            <input class="form-check-input check-servicio ms-0 me-3" type="checkbox" value="25000" id="serv4">
+                            <label class="form-check-label d-flex justify-content-between w-100" for="serv4">
+                                <span>Sesión de Reiki</span> <span class="fw-bold">$25.000</span>
+                            </label>
+                        </div>
+
+                        <div class="form-check custom-card-check mb-2">
+                            <input class="form-check-input check-servicio ms-0 me-3" type="checkbox" value="25000" id="serv5">
+                            <label class="form-check-label d-flex justify-content-between w-100" for="serv5">
+                                <span>Lifting de pestañas</span> <span class="fw-bold">$25.000</span>
+                            </label>
+                        </div>
+
+                        <div class="form-check custom-card-check mb-4">
+                            <input class="form-check-input check-servicio ms-0 me-3" type="checkbox" value="30000" id="serv6">
+                            <label class="form-check-label d-flex justify-content-between w-100" for="serv6">
+                                <span>Tratamiento Facial</span> <span class="fw-bold">$30.000</span>
+                            </label>
+                        </div>
+
+                        <div class="card p-4 mb-4 shadow-sm border-0 bg-light">
+                            <h4 class="text-pink fw-bold mb-3">Personalizá tu pedicuria/manicuria</h4>
+                            <p class="small text-muted mb-4">Seleccioná el servicio que quieras:</p>
+                            
+                            <div class="row g-3">
+                                <div class="col-6 col-md-4">
+                                    <label class="form-check custom-card-check h-100" for="zona1">
+                                        <input class="form-check-input check-servicio" type="checkbox" value="20000" id="zona1">
+                                        <span class="d-block fw-bold">Manicuria tradicional</span>
+                                        <span class="small text-muted">$20.000</span>
+                                    </label>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <label class="form-check custom-card-check h-100" for="zona2">
+                                        <input class="form-check-input check-servicio" type="checkbox" value="20000" id="zona2">
+                                        <span class="d-block fw-bold">Capping</span>
+                                        <span class="small text-muted">$20.000</span>
+                                    </label>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <label class="form-check custom-card-check h-100" for="zona3">
+                                        <input class="form-check-input check-servicio" type="checkbox" value="25000" id="zona3">
+                                        <span class="d-block fw-bold">Soft gel</span>
+                                        <span class="small text-muted">$25.000</span>
+                                    </label>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <label class="form-check custom-card-check h-100" for="zona4">
+                                        <input class="form-check-input check-servicio" type="checkbox" value="24000" id="zona4">
+                                        <span class="d-block fw-bold">Pedicuria y esmaltado</span>
+                                        <span class="small text-muted">$24.000</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-secondary d-flex justify-content-between align-items-center mt-4 bg-white border shadow-sm p-3">
+                        <h4 class="mb-0 h5">Total estimado:</h4>
+                        <span class="h3 mb-0 text-pink fw-bold">$<span id="total-presupuesto">0</span></span>
+                    </div>
+                    
+                    <button type="button" class="btn btn-outline-body w-100 mt-3 py-3 fw-bold shadow" onclick="enviarWhatsApp()">
+                        Confirmar Solicitud de Turno
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer pt-5 pb-3 mt-5">
+        <div class="container text-center">
+            <h3 class="h4 mb-4 text-pink">Kariso Estética</h3>
+            <p class="small mb-0">&copy; 2024 Kariso Estética - Todos los derechos reservados</p>
+        </div>
+        <a href="https://wa.me/+5491161272389" class="wpp-flotante" target="_blank">
+            <span>📲</span>
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const checkboxes = document.querySelectorAll('.check-servicio');
+        const displayTotal = document.getElementById('total-presupuesto');
+
+        function calcularTotal() {
+            let total = 0;
+            checkboxes.forEach(cb => {
+                if (cb.checked) {
+                    // Sumamos el valor asegurándonos que sea un número
+                    total += parseInt(cb.value) || 0;
+                }
+            });
+            displayTotal.innerText = total.toLocaleString('es-AR');
+        }
+
+        checkboxes.forEach(cb => {
+            cb.addEventListener('change', calcularTotal);
+        });
+
+        function enviarWhatsApp() {
+            const telefono = "5491161272389";
+            const totalActual = displayTotal.innerText;
+            const seleccionados = [];
+            
+            checkboxes.forEach(cb => {
+                if (cb.checked) {
+                    // Buscamos el texto del servicio dentro de la card
+                    const label = cb.closest('.custom-card-check');
+                    const nombre = label.querySelector('span').innerText;
+                    seleccionados.push(nombre);
+                }
+            });
+
+            if (seleccionados.length === 0) {
+                alert("Por favor, seleccioná al menos un servicio para solicitar el turno.");
+                return;
+            }
+
+            let mensaje = `Hola Kariso Estética! Me gustaría pedir un turno para:%0A%0A`;
+seleccionados.forEach(s => mensaje += `- ${s}%0A`);
+mensaje += `%0A*Total estimado: $${totalActual}*%0A%0A¿Qué turnos tenés disponibles?`;
+
+            const url = `https://wa.me/${telefono}?text=${mensaje}`;
+            window.open(url, '_blank');
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
